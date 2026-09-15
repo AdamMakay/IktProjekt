@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkhwgagbr1a8n"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="2"]
+size = Vector2(64, 64)
+
+[sub_resource type="RectangleShape2D" id="3"]
+size = Vector2(64, 64)
+
+[node name="SwitchableObject" type="Node2D"]
+
+[node name="Dim0" type="StaticBody2D" parent="."]
+
+[node name="Polygon2D" type="Polygon2D" parent="Dim0"]
+color = Color(0.3, 0.8, 0.3, 1)
+polygon = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Dim0"]
+shape = SubResource("1")
+
+[node name="Dim1" type="StaticBody2D" parent="."]
+
+[node name="Polygon2D" type="Polygon2D" parent="Dim1"]
+color = Color(0.9, 0.3, 0.1, 1)
+polygon = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Dim1"]
+shape = SubResource("2")
+
+[node name="Dim2" type="StaticBody2D" parent="."]
+
+[node name="Polygon2D" type="Polygon2D" parent="Dim2"]
+color = Color(0.4, 0.4, 0.4, 1)
+polygon = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Dim2"]
+shape = SubResource("3")
