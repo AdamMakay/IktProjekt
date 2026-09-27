@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://cgq4mbyuqilh" path="res://Player.tscn" id="1"]
 [ext_resource type="PackedScene" uid="uid://dkhwgagbr1a8n" path="res://SwitchableObject.tscn" id="2"]
-[ext_resource type="Script" uid="uid://b24fa40j6nk7w" path="res://Player.cs" id="2_dwyiq"]
+[ext_resource type="Script" uid="uid://dkda5oktj7551" path="res://Player.cs" id="2_dwyiq"]
 [ext_resource type="Texture2D" uid="uid://cxvgquhogviq5" path="res://animations/Attacks.png" id="3_1bjei"]
-[ext_resource type="Script" uid="uid://dxtwnri5j3oo2" path="res://DimensionGroup.cs" id="3_cove1"]
+[ext_resource type="Script" uid="uid://b2nw35w60ferf" path="res://DimensionGroup.cs" id="3_cove1"]
 [ext_resource type="Texture2D" uid="uid://0i1rqie8xmog" path="res://animations/Death.png" id="4_5g1s2"]
 [ext_resource type="Texture2D" uid="uid://clvcajadsy88d" path="res://animations/Idle.png" id="5_aiv1b"]
 [ext_resource type="Texture2D" uid="uid://cmyyw6yybdu3l" path="res://animations/Jump.png" id="6_wapi5"]
